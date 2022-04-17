@@ -5,20 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo</title>
+    <title>Calcule seu IMC</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
 
     <section class="container">
-        <h1>Lorem ipsum dolor sit amet</h1>
-        <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa corrupti animi eius ipsum ea perferendis ad
-            voluptas voluptates quia libero accusantium dicta rerum, repudiandae nihil vitae! Pariatur voluptate
-            consequatur doloribus.
-        </p>
-
+        <h1>Calcule seu IMC</h1>
+        <form action="/" id="formulario" method="post">
+            <label for="peso"></label>
+            <input type="text" id="peso" name="peso">
+            <label for="altura"></label>
+            <input type="text" id="altura" name="altura">
+            <button type="submit">Enviar</button>
+        </form>
     </section>
 
     <script src="./assets/js/main.js"></script>
