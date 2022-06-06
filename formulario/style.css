@@ -8,7 +8,7 @@
   body {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+    background: linear-gradient(90deg, #241371 0%, #aec442 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,7 +47,7 @@
     border: 2px solid #f0f0f0;
     display: block;
     border-radius: 10px;
-    font-size: 14px;
+    font-size: 12px;
     width: 100%;
     padding: 10px;
   }
@@ -67,8 +67,8 @@
   }
   
   .form button {
-    background-color: #fc00ff;
-    border: 2px solid #fc00ff;
+    background-color: #ff003c;
+    border: 2px solid #ff003c;
     color: #fff;
     font-size: 14px;
     width: 100%;
